@@ -1,1 +1,14 @@
-# algorithms-practice
+# Algorithms Practice
+
+Purpose of this repository is to study various algorithms from a  
+variety of sources. First I am analyzing the algorithms studied from  
+a course found on Coursera called [Algorithms, Part 1](https://www.coursera.org/learn/algorithms-part1).
+## Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+## Run Tests
+```
+pytest -v
+```
