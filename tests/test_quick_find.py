@@ -26,6 +26,4 @@ def test_connected():
 def test_union():
     n_list = QuickFind(5)
 
-    
-
     assert n_list.union(2, 1) == [0, 1, 1, 3, 4]
