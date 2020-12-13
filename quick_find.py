@@ -1,4 +1,8 @@
 class QuickFind:
+    """
+    This Algorithm replaces individual components with their union. The idea
+    is that if p and q are connected they have same id. 
+    """
     def __init__(self, n):
         """
         Check if two objects are in the same component.
@@ -21,7 +25,6 @@ class QuickFind:
         """
         Check if two objects are in the same component.
 
-        
         @param p: Value to be changed.
         @param q: Value to change to.
         """
@@ -30,12 +33,4 @@ class QuickFind:
                 self.connected_components[x] = q
 
         return self.connected_components
-
-    def __str__(self):
-        print(self.connected_components)
         
-
-if __name__ == '__main__':
-    test = QuickFind(5)
-    print(test.union(2, 1))
-    
