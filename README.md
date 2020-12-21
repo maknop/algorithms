@@ -10,7 +10,7 @@ variety of sources:
 - [Bubble Sort](/sorting/bubble_sort.py)
 - [Insertion Sort](/sorting/insertion_sort.py)
 - [Selection Sort](/sorting/selection_sort.py)
-- [Binary Search]((/search/binary_search.py))
+- [Binary Search]((/search/binary_search.py)
 - [Hash List](/other/hash_list.py)
 - [Linked List](/other/linked_list.py)
 - [Doubly Linked List](/other/doubly_linked_list.py)
